@@ -25,6 +25,11 @@ export default function Header() {
               <p className="text-white hover:text-gray-200">Relatório</p>
             </Link>
           </li>
+          <li>
+            <Link href="/login">
+              <p className="text-white hover:text-gray-200">Login/cadastro</p>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
